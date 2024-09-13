@@ -3,16 +3,15 @@ import java.util.ArrayList;
 public class CollectionInterfaceInJava {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
-		
-		ArrayList al = new ArrayList();
+	
+		ArrayList<String> al = new ArrayList<>();
 		
 		System.out.println(al.isEmpty());
 	
-		al.add(100);//as in obejct add hoga
+		al.add("100");//as in obejct add hoga
 		al.add("suraj");
-		al.add('c');
+		al.add("c");
 		
 		
 		
@@ -23,12 +22,12 @@ public class CollectionInterfaceInJava {
 		System.out.println(al.size());
 		
 		System.out.println(al.contains("ddd"));
-		System.out.println(al.contains(500));
+		System.out.println(al.contains("500"));
 		
 		//al.remove(100);
 		al.remove("suraj");
 		System.out.println(al);
-		ArrayList al2 = new ArrayList();
+		ArrayList<String> al2 = new ArrayList<>();
 
 		al2.add("aaa");//as in obejct add hoga
 		al2.add("bbb");
@@ -39,7 +38,7 @@ public class CollectionInterfaceInJava {
 		al.addAll(al2);
 		System.out.println(al);
 		
-		ArrayList al3 = new ArrayList();
+		ArrayList<String> al3 = new ArrayList<>();
 
 		al3.add("aaa");//as in obejct add hoga
 		al3.add("suraj");
@@ -48,7 +47,6 @@ public class CollectionInterfaceInJava {
 		System.out.println(al);
 		al.clear();
 		System.out.println(al);
-		
 
 	}
 

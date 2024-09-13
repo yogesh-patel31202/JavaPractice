@@ -29,6 +29,7 @@ public class ExceptionFinallyBlockSimpleExample {
 		      System.out.println("Exception detail: "+e);//Exception detail
 			}
 		finally {
+			sn.close();
 			System.out.println("Resources are closed.");
 		}
 	}	

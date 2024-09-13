@@ -17,6 +17,7 @@ public class ExceptionHandlingThrowKeywordCLass {
 		System.out.println("Enter Your Age: ");
 
 		int age = s.nextInt();
+		s.close();
 		
 		try {
 			
